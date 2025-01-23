@@ -12,7 +12,7 @@ const OurProducts = () => {
     }, [dispatch]);
   return (
     <div>
-        <div className="text-center d-flex flex-column gap-2">
+        <div className="text-center d-flex flex-column gap-2 mt-5">
             <p style={{color:"#82ae46"}}>Featured Products</p>
             <h2>Our Products</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>

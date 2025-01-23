@@ -21,6 +21,57 @@
        
        
     }
+    .iconA {
+        background: #dcc698;
+        font-size: 50px;
+        color: white;
+        padding: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        &:hover{
+            background-color: #82ae46 ;
+        }
+       
+       
+    }
+    .iconB {
+        background: #a2d1e1;
+        font-size: 50px;
+        color: white;
+        padding: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        &:hover{
+            background-color: #82ae46 ;
+        }
+       
+       
+    }
+    .iconC {
+        background: #dcd691;
+        font-size: 50px;
+        color: white;
+        padding: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.2s all ease-in-out;
+        &:hover{
+            background-color: #82ae46 ;
+        }
+       
+       
+    }
    
     
 }

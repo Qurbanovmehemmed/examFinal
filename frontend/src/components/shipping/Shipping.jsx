@@ -16,26 +16,20 @@ const Shipping = () => {
                     <p>ON ORDER OVER $100</p>
                 </div>
                 <div className="icons">
-                    <div className='icon ' style={{
-                        backgroundColor: "#dcc698"
-                    }}>
+                    <div className='iconA ' >
                         <IoFastFood />
                     </div>
                     <h6>ALWAYS FRESH</h6>
                     <p>PRODUCT WELL PACKAGE</p></div>
                 <div className="icons  ">
-                    <div className='icon' style={{
-                        backgroundColor: "#a2d1e1"
-                    }}>
+                    <div className='iconB' >
                         <GiStarMedal />
                     </div>
                     <h6>SUPERIOR QUALITY</h6>
                     <p>QUALITY PRODUCTS</p>
                 </div>
                 <div className="icons">
-                    <div className='icon' style={{
-                        backgroundColor: "#dcd691"
-                    }}>
+                    <div className='iconC' >
                         <MdSupportAgent />
                     </div>
                     <h6>SUPPORT</h6>
