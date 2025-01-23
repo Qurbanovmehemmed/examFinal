@@ -3,13 +3,13 @@ import Table from "react-bootstrap/Table";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "../../redux/features/productSlice";
 import { deleteBasket, minusBtn, plusBtn } from "../../redux/features/basketSlice";
+import { useNavigate } from "react-router";
 
 
 const Basket = () => {
   const dispatch = useDispatch();
   const { basket } = useSelector((state) => state.basket);
-  console.log(basket);
-
+const navigate =useNavigate()
   useEffect(() => {
     dispatch(fetchProducts());
   }, [dispatch]);
@@ -42,11 +42,11 @@ const Basket = () => {
               {basket && basket.length > 0 ? (
                 basket.map((item, index) => (
                   <tr key={item._id}>
-                    <td style={{
-                        width:"300px"
+                    <td  style={{
+                      width: "300px"
                     }}><img src={item.image} alt="" style={{
-                        width:"100%"
-                    }} /></td>
+                      width: "100%"
+                    }}   /></td>
                     <td>{item.name}</td>
                     <td>${item.price * item.count}</td>
                     <td>{item.category}</td>
@@ -59,9 +59,9 @@ const Basket = () => {
                           alignItems: "center",
                         }}
                       >
-                        <button onClick={() => up(item)}>+</button>
+                        <button className="btn btn-secondary" onClick={() => up(item)}>+</button>
                         <p>{item.count}</p>
-                        <button onClick={() => dispatch(minusBtn(item))}>-</button>
+                        <button className="btn btn-secondary" onClick={() => dispatch(minusBtn(item))}>-</button>
                       </div>
                       <button
                         className="btn btn-danger"

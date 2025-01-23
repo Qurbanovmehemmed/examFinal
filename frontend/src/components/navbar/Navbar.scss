@@ -8,3 +8,20 @@
 .logo{
     color:#82ae46 ;
 }
+.list{
+    display: flex;
+}
+.hamburger{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+  
+    
+        .list{
+            display: none;
+        }
+      
+  .hamburger{
+    display: block;
+  }
+  }
