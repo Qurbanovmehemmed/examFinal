@@ -1,0 +1,24 @@
+.startHero{
+    background-image: url(https://preview.colorlib.com/theme/vegefoods/images/bg_1.jpg.webp);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+    .overlay{
+        position: absolute;
+        top:0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        opacity: 0.3;
+    }
+    .heroText{
+        position: absolute;
+        top:0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}

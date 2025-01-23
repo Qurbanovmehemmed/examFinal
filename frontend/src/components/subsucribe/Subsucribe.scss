@@ -1,0 +1,38 @@
+.subStart {
+    background-color: #f7f6f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+ .inputArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    input{
+        height: 100%;
+        width:60%;
+        border: none;
+        padding-left: 15px;
+    }
+    button{
+        background-color: #82ae46;
+        height: 100%;
+        border: none;
+        color: white;
+        padding: 10px;
+    }
+ }
+ .subIcon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #82ae46;
+    bottom: -10px;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+ }
+}
